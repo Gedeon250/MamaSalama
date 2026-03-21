@@ -12,8 +12,9 @@ import { useAuth } from '@/hooks/useAuth';
 type Msg = { role: 'user' | 'assistant'; content: string };
 type Lang = 'en' | 'rw';
 
-const RISK_URL = `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/assess-risk`;
-const HEALTH_CHAT_URL = `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/health-chat`;
+const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL || "https://paykeqyeltdueteruidx.supabase.co";
+const RISK_URL = `${SUPABASE_URL}/functions/v1/assess-risk`;
+const HEALTH_CHAT_URL = `${SUPABASE_URL}/functions/v1/health-chat`;
 
 
 const translations = {
