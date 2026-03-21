@@ -1,0 +1,22 @@
+project_id = "paykeqyeltdueteruidx"
+
+[functions.ussd-callback]
+verify_jwt = false
+
+[functions.sms-callback]
+verify_jwt = false
+
+[functions.send-sms]
+verify_jwt = false
+
+[functions.send-sms-reminders]
+verify_jwt = false
+
+[functions.health-chat]
+verify_jwt = false
+
+[functions.assess-risk]
+verify_jwt = false
+
+[functions.send-push]
+verify_jwt = true
