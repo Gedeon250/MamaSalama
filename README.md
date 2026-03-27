@@ -1,7 +1,3 @@
-Here’s a **clean, copy-and-paste-ready version** of your simplified README:
-
----
-
 # MamaSalama
 
 **MamaSalama** means *“Safe Mother”*.
@@ -194,6 +190,3 @@ MIT License — free to use and modify.
 
 **Made with care for mothers in Rwanda 🇷🇼**
 
----
-
-If you want, I can also **make an *even shorter, super clean version* under 1 page** that’s perfect for GitHub front-page visibility. It’ll be much easier for anyone to read at a glance. Do you want me to do that?
